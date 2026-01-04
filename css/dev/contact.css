@@ -54,7 +54,8 @@
 }
 .stores__img {
   aspect-ratio: 640/529;
-  width: 50%;
+  width: 44vw;
+  max-width: 50%;
 }
 @media (max-width: 61.99875em) {
   .forms__container {
@@ -84,6 +85,10 @@
 @media (max-width: 43.75em) {
   .stores__container {
     flex-direction: column;
+  }
+  .stores__img {
+    text-align: center;
+    width: 70vw;
   }
 }
 @media (max-width: 29.99875em) {
