@@ -54,7 +54,6 @@
 }
 .stores__img {
   aspect-ratio: 640/529;
-  width: 44vw;
   max-width: 50%;
 }
 @media (max-width: 61.99875em) {
@@ -88,7 +87,7 @@
   }
   .stores__img {
     text-align: center;
-    width: 70vw;
+    width: 70%;
   }
 }
 @media (max-width: 29.99875em) {
