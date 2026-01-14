@@ -1,3 +1,12 @@
+function getHash() {
+  if (location.hash) {
+    return location.hash.replace("#", "");
+  }
+}
+function setHash(hash) {
+  hash = hash ? `#${hash}` : window.location.href.split("#")[0];
+  history.pushState("", "", hash);
+}
 let slideUp = (target, duration = 500, showmore = 0) => {
   if (!target.classList.contains("--slide")) {
     target.classList.add("--slide");
@@ -159,11 +168,13 @@ const gotoBlock = (targetBlock, noHeader = false, speed = 500, offsetTop = 0) =>
   }
 };
 export {
-  slideDown as a,
-  slideToggle as b,
-  bodyLockToggle as c,
+  setHash as a,
+  slideUp as b,
+  slideToggle as c,
   dataMediaQueries as d,
-  bodyLockStatus as e,
-  gotoBlock as g,
-  slideUp as s
+  bodyLockToggle as e,
+  bodyLockStatus as f,
+  getHash as g,
+  gotoBlock as h,
+  slideDown as s
 };

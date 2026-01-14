@@ -1,4 +1,4 @@
-import { d as dataMediaQueries, b as slideToggle, s as slideUp } from "./common.min.js";
+import { d as dataMediaQueries, c as slideToggle, b as slideUp } from "./common.min.js";
 function spollers() {
   const spollersArray = document.querySelectorAll("[data-fls-spollers]");
   if (spollersArray.length > 0) {
