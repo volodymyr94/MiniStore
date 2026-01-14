@@ -29,16 +29,8 @@
 .spollers__body a::after {
   content: "";
 }
-@media (any-hover: hover) {
+@media (max-width: 62.5em) and (any-hover: hover) {
   .spollers__title:hover {
     color: #72AEC8;
-  }
-  .spollers__title:hover {
-    color: #72AEC8;
-  }
-  .spollers__title:hover::after {
-    left: 0;
-    width: 100%;
-    background-color: #72AEC8;
   }
 }

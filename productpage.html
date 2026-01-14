@@ -6,26 +6,25 @@
 		<link rel="preload" href="./assets/fonts/Lato-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>MiniStore</title>
-		<script type="module" crossorigin="" src="./js/productpage.min.js?v=1768386645774"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1768386645774">
-		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1768386645774">
-		<link rel="modulepreload" crossorigin="" href="./js/toch.min.js?v=1768386645774">
-		<link rel="modulepreload" crossorigin="" href="./js/spollers.min.js?v=1768386645774">
-		<link rel="modulepreload" crossorigin="" href="./js/slider.min.js?v=1768386645774">
-		<link rel="modulepreload" crossorigin="" href="./js/product.min.js?v=1768386645774">
-		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1768386645774">
-		<link rel="stylesheet" crossorigin="" href="./css/toch.min.css?v=1768386645774">
-		<link rel="stylesheet" crossorigin="" href="./css/spollers.min.css?v=1768386645774">
-		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1768386645774">
-		<link rel="stylesheet" crossorigin="" href="./css/product.min.css?v=1768386645774">
-		<link rel="stylesheet" crossorigin="" href="./css/productpage.min.css?v=1768386645774">
+		<script type="module" crossorigin="" src="./js/productpage.min.js?v=1768414325638"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1768414325638">
+		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1768414325638">
+		<link rel="modulepreload" crossorigin="" href="./js/toch.min.js?v=1768414325638">
+		<link rel="modulepreload" crossorigin="" href="./js/spollers.min.js?v=1768414325638">
+		<link rel="modulepreload" crossorigin="" href="./js/slider.min.js?v=1768414325638">
+		<link rel="modulepreload" crossorigin="" href="./js/product.min.js?v=1768414325638">
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1768414325638">
+		<link rel="stylesheet" crossorigin="" href="./css/toch.min.css?v=1768414325638">
+		<link rel="stylesheet" crossorigin="" href="./css/spollers.min.css?v=1768414325638">
+		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1768414325638">
+		<link rel="stylesheet" crossorigin="" href="./css/product.min.css?v=1768414325638">
+		<link rel="stylesheet" crossorigin="" href="./css/productpage.min.css?v=1768414325638">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" data-fls-header-scroll="100" data-fls-header-scroll-show="1000" class="header">
 				<div class="header__container">
 					<a href="index.html" class="header__logo logo">MiniStore.</a>
-					<!-- <a  href="#" class="header__logo logo">MiniStore.</a> -->
 					<div class="header__menu menu">
 						<!-- <button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button> -->
 						<nav class="menu__body">
@@ -55,7 +54,7 @@
 						<div class="actions-header--icon-search"></div>
 						<div class="actions-header--icon-man"></div>
 						<div class="actions-header--icon-ion_cart cart">
-							<span class="cart__quantity" data-fls-addtocart="">(0)</span>
+							<span class="cart__quantity" data-fls-addtocart="">0</span>
 						</div>
 					</div>
 					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
@@ -68,6 +67,11 @@
 					<section class="productpage__hero-product hero-product">
 						<div class="hero-product__container">
 							<div data-fls-dynamic=".hero-product__content, 815, 3" data-fls-slider="" class="hero-product__slider swiper">
+								<div data-fls-toch="" class="hero-product__toch toch__items">
+									<img src="./assets/img/toch/Ellipse%2031.svg" alt="">
+									<img src="./assets/img/toch/Ellipse%2031.svg" alt="">
+									<img src="./assets/img/toch/Ellipse%2031.svg" alt="">
+								</div>
 								<div class="hero-product__wrapper swiper-wrapper">
 									<div class="hero-product__slide swiper-slide">
 										<div class="hero-product__img">
@@ -77,7 +81,7 @@
 											</picture>
 										</div>
 									</div>
-									<div class="имя-блока__slide swiper-slide">
+									<div class="hero-product__slide swiper-slide">
 										<div class="hero-product__img">
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/product-page-600.webp" type="image/webp">
@@ -85,7 +89,7 @@
 											</picture>
 										</div>
 									</div>
-									<div class="имя-блока__slide swiper-slide">
+									<div class="hero-product__slide swiper-slide">
 										<div class="hero-product__img">
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/product-page-600.webp" type="image/webp">
@@ -93,7 +97,7 @@
 											</picture>
 										</div>
 									</div>
-									<div class="имя-блока__slide swiper-slide">
+									<div class="hero-product__slide swiper-slide">
 										<div class="hero-product__img">
 											<picture>
 												<source media="(max-width: 600px)" srcset="./assets/img/product-page-600.webp" type="image/webp">
@@ -108,8 +112,11 @@
 								<div class="hero-product__star hero-product__star--icon-oneStar">5.0</div>
 								<div class="hero-product__price">$870.00</div>
 								<div data-fls-showmore="" class="block">
-									<div data-fls-showmore-content="80" class="block__content">
+									<div data-fls-showmore-content="130" class="block__content">
 										<div class="hero-product__text">
+											<p>
+												Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.
+											</p>
 											<p>
 												Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.
 											</p>
@@ -122,6 +129,7 @@
 										<span>Показати ще</span>
 										<span>Сховати</span>
 									</button>
+									<button></button>
 								</div>
 								<div class="hero-product__spollers">
 									<div data-fls-spollers="1000,max" class="spollers">
@@ -147,7 +155,7 @@
 								<div class="hero-product__num"></div>
 								<div class="hero-product__buttons">
 									<button class="button">Buy now</button>
-									<button class="button button--black">Add to cart</button>
+									<button data-fls-addtocart-button="" class="button button--black">Add to cart</button>
 								</div>
 								<div class="hero-product__span">SKU: 1223</div>
 								<div class="hero-product__span">Category: Watch, Screen touch</div>
@@ -225,7 +233,7 @@
 											<div class="product__content">
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
@@ -241,7 +249,7 @@
 												</article>
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
@@ -257,7 +265,7 @@
 												</article>
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
@@ -273,7 +281,7 @@
 												</article>
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/pexels-soulful-pizza-6753223.webp">
@@ -293,7 +301,7 @@
 											<div class="product__content">
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
@@ -309,7 +317,7 @@
 												</article>
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
@@ -325,7 +333,7 @@
 												</article>
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
@@ -341,7 +349,7 @@
 												</article>
 												<article class="product__body">
 													<div class="product__picrure">
-														<button type="submit" class="button product__card">Add to cart</button>
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
 														<a class="product__picrure-link" href="productpage.html">
 															<picture>
 																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/pexels-soulful-pizza-6753223.webp">
