@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Lato-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>MiniStore</title>
+		<link rel="modulepreload" crossorigin href="./js/common.min.js?v=1768562181336">
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1768562181336"></script>
+		<script type="module" crossorigin="" src="./js/toch.min.js?v=1768562181336"></script>
+		<script type="module" crossorigin="" src="./js/spollers.min.js?v=1768562181336"></script>
+		<script type="module" crossorigin="" src="./js/slider.min.js?v=1768562181336"></script>
+		<script type="module" crossorigin="" src="./js/product.min.js?v=1768562181336"></script>
+		<script type="module" crossorigin="" src="./js/minetitle.min.js?v=1768562181336"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1768562181336">
+		<link rel="stylesheet" crossorigin="" href="./css/toch.min.css?v=1768562181336">
+		<link rel="stylesheet" crossorigin="" href="./css/spollers.min.css?v=1768562181336">
+		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1768562181336">
+		<link rel="stylesheet" crossorigin="" href="./css/product.min.css?v=1768562181336">
+		<link rel="stylesheet" crossorigin="" href="./css/minetitle.min.css?v=1768562181336">
+		<link rel="stylesheet" crossorigin="" href="./css/shop.min.css?v=1768562181336">
+		<link rel="stylesheet" crossorigin="" href="./css/input.min.css?v=1768562181336">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="100" data-fls-header-scroll-show="1000" class="header">
+				<div class="header__container">
+					<a href="index.html" class="header__logo logo">MiniStore.</a>
+					<div class="header__menu menu">
+						<!-- <button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button> -->
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index.html" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="about.html" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="blog.html" class="menu__link">Blogs</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact.html" class="menu__link">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div class="header__actions actions-header">
+						<div class="actions-header--icon-search"></div>
+						<div class="actions-header--icon-man"></div>
+						<a href="pagecart.html" class="actions-header--icon-ion_cart cart">
+							<span class="cart__quantity" data-fls-addtocart=""></span>
+						</a>
+					</div>
+					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-shop="" class="shop">
+					<section data-fls-minetitle="" class="minetitle">
+						<div class="minetitle__container">
+							<div class="minetitle__content">
+								<div class="minetitle__body minetitle__body--mimi">
+									<h1 class="minetitle__titlle">Shop</h1>
+									<div class="minetitle__lable">
+										<a href="#">Home ></a>
+										<span>Shop</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="minproduct">
+						<div class="minproduct__container">
+							<div data-fls-product="" class="shop__product product">
+								<!-- Оболонка слайдера -->
+								<div data-fls-slider="" class="product__slider shop__slider swiper">
+									<!-- Частина слайдера, що рухається -->
+									<div class="product__wrapper swiper-wrapper">
+										<!-- Слайд -->
+										<div class="product__slide swiper-slide">
+											<div class="product__content shop__content">
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 10</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 11</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 8</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+											</div>
+											<div class="product__content shop__content">
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 10</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 11</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 8</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+											</div>
+											<div class="product__content shop__content">
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 10</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 11</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 8</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+											</div>
+										</div>
+										<div class="product__slide swiper-slide">
+											<div class="product__content shop__content">
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 10</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 11</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 8</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+											</div>
+											<div class="product__content shop__content">
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 10</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 11</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 8</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+											</div>
+											<div class="product__content shop__content">
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/daniel-korpai-hbTKIbuMmBI-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 10</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/kuiye-chen-NuOGFo4PudE-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 11</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+												<article class="product__body">
+													<div class="product__picrure">
+														<button data-fls-addtocart-button="" type="submit" class="button product__card">Add to cart</button>
+														<a class="product__picrure-link" href="productpage.html">
+															<picture>
+																<img class="product__picrure-img" alt="img" src="./assets/img/mobile-products/matthew-brodeur-oSvR0wGYUBs-unsplash.webp">
+															</picture>
+														</a>
+													</div>
+													<div class="product__text">
+														<div class="product__title">
+															<a href="productpage.html">Iphone 8</a>
+														</div>
+														<div class="product__price">$980</div>
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-fls-toch="" class="toch__items">
+									<img src="./assets/img/toch/Ellipse%2031.svg" alt="">
+									<img src="./assets/img/toch/Ellipse%2031.svg" alt="">
+									<img src="./assets/img/toch/Ellipse%2031.svg" alt="">
+								</div>
+							</div>
+							<aside class="shop__aside aside">
+								<form class="aside__form" data-fls-form="" action="files/sendmail/sendmail.php" method="POST">
+									<input data-fls-input="" data-fls-form-validatenow="" required autocomplete="off" type="text" name="form[]" placeholder="Search" class="input aside__input">
+									<button type="submit" class="button aside__button button--black button--min button--icon-search"></button>
+								</form>
+								<div data-fls-spollers="760" class="aside__filters">
+									<details class="aside__filter">
+										<summary>
+											<h4 class="aside__title">categories</h4>
+										</summary>
+										<ul>
+											<a class="aside__link" href="#">all</a>
+										</ul>
+										<ul>
+											<a class="aside__link" href="#">Phones</a>
+										</ul>
+										<ul>
+											<a class="aside__link" href="#">Accessories</a>
+										</ul>
+										<ul>
+											<a class="aside__link" href="#">Tablets</a>
+										</ul>
+										<ul>
+											<a class="aside__link" href="#">Watches</a>
+										</ul>
+									</details>
+									<div data-fls-spollers="760" class="aside__filters">
+										<details class="aside__filter">
+											<summary>
+												<h4 class="aside__title">tags</h4>
+											</summary>
+											<ul>
+												<a class="aside__link" href="#">White</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Cheap</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Mobile</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Modern</a>
+											</ul>
+										</details>
+									</div>
+									<div data-fls-spollers="760" class="aside__filters">
+										<details class="aside__filter">
+											<summary>
+												<h4 class="aside__title">Social links</h4>
+											</summary>
+											<ul>
+												<a class="aside__link" href="#">Facebook</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Instagram</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Twitter</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Youtube</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Pinterest</a>
+											</ul>
+										</details>
+									</div>
+									<div data-fls-spollers="760" class="aside__filters">
+										<details class="aside__filter">
+											<summary>
+												<h4 class="aside__title">brands</h4>
+											</summary>
+											<ul>
+												<a class="aside__link" href="#">apple</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">Samsung</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">green</a>
+											</ul>
+										</details>
+									</div>
+									<div data-fls-spollers="760" class="aside__filters">
+										<details class="aside__filter">
+											<summary>
+												<h4 class="aside__title">Filter by price</h4>
+											</summary>
+											<ul>
+												<a class="aside__link" href="#">Less than $10</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">$10- $20</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">$20- $30</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">$30- $40</a>
+											</ul>
+											<ul>
+												<a class="aside__link" href="#">$40- $50</a>
+											</ul>
+										</details>
+									</div>
+								</div>
+							</aside>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__item item-footer">
+							<h2 class="item-footer__logo logo">
+								<a href="index.html">MiniStore.</a>
+							</h2>
+							<div class="item-footer__text">
+								<p>
+									Nisi, purus vitae, ultrices nunc. Sit ac sit
+									<br>
+									suscipit hendrerit. Gravida massa volutpat
+									<br>
+									aenean odio erat nullam fringilla.
+								</p>
+							</div>
+							<div class="item-footer__social social">
+								<a href="https://www.youtube.com/" target="_blank" class="social--icon-s-ut"></a>
+								<a href="https://ua.linkedin.com/" target="_blank" class="social--icon-s-in"></a>
+								<a href="https://x.com/?lang=uk" target="_blank" class="social--icon-s-tv"></a>
+								<a href="https://www.instagram.com/" target="_blank" class="social--icon-grm"></a>
+								<a href="https://www.facebook.com/?locale=uk_UA" target="_blank" class="social--icon-s-fb"></a>
+							</div>
+						</div>
+						<div class="footer__item item-footer">
+							<h5 class="item-footer__title">Quick links</h5>
+							<a href="index.html" class="item-footer__link">home</a>
+							<a href="about.html" class="item-footer__link">about</a>
+							<a href="shop.html" class="item-footer__link">shop</a>
+							<a href="blogs.html" class="item-footer__link">blogs</a>
+							<a href="contact.html" class="item-footer__link">contact</a>
+						</div>
+						<div class="footer__item item-footer">
+							<h5 class="item-footer__title">Help & info</h5>
+							<a href="#" class="item-footer__link">Track Your Order</a>
+							<a href="#" class="item-footer__link">Returns policies</a>
+							<a href="#" class="item-footer__link">Shipping + Delivery</a>
+							<a href="contact.html" class="item-footer__link">Contact Us</a>
+							<a href="#" class="item-footer__link">Faqs</a>
+						</div>
+						<div class="footer__item item-footer">
+							<h5 class="item-footer__title">Contact us</h5>
+							<div class="item-footer__text item-footer__text-colms">
+								<div class="item-footer__text-colm">
+									<p>
+										Do you have any queries or
+										<br>
+										suggestions?
+									</p>
+									<a href="mailto:yourinfo@gmail.com">yourinfo@gmail.com</a>
+								</div>
+								<div class="item-footer__text-colm">
+									<p>If you need support? Just give us a call.</p>
+									<a href="tel:+55 111 222 333 44">+55 111 222 333 44</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copy">
+						<div class="footer__left left-footer">
+							<div class="left-footer__col">
+								<div class="left-footer__text">We ship with:</div>
+								<picture>
+									<img class="left-footer__img" alt="Image" src="./assets/img/footer/arcticons_post.webp">
+								</picture>
+								<picture>
+									<img class="left-footer__img" alt="Image" src="./assets/img/footer/fa-brands_dhl.webp">
+								</picture>
+							</div>
+							<div class="left-footer__col">
+								<div class="left-footer__text">Payment options:</div>
+								<div class="left-footer__img--icon-visa"></div>
+								<div class="left-footer__img--icon-pp"></div>
+								<div class="left-footer__img--icon-mc"></div>
+							</div>
+						</div>
+						<div class="footer__right">
+							<p>
+								© Copyright 2023 MiniStore. Design by
+								<a href="#">TemplatesJungle</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

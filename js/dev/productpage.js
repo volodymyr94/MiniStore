@@ -3,6 +3,7 @@ import { g as getHash, d as dataMediaQueries, s as slideDown, a as setHash, b as
 import "./toch.min.js";
 import "./spollers.min.js";
 import "./slider.min.js";
+import "./insta.min.js";
 import "./product.min.js";
 function tabs() {
   const tabs2 = document.querySelectorAll("[data-fls-tabs]");

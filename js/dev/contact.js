@@ -1,5 +1,6 @@
 import "./main.min.js";
 /* empty css          */
+import "./insta.min.js";
 import "./minetitle.min.js";
 import "./common.min.js";
 var inputmask_min$1 = { exports: {} };
